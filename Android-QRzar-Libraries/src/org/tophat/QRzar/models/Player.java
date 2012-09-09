@@ -6,9 +6,9 @@ import android.os.Parcel;
 
 public class Player extends org.tophat.android.mapping.Player {
 
-	private Boolean alive;
-	private String qrcode;
-	private String respawn_code;
+	private Boolean alive = false;
+	private String qrcode = "";
+	private String respawn_code = "";
 	public static String API_URI = "players";
 	
 	public Player()
