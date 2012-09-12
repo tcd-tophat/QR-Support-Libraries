@@ -39,7 +39,7 @@ public class Player extends org.tophat.android.mapping.Player {
 	 * @return the alive
 	 */
 	public Boolean getAlive() {
-		return alive;
+		return this.alive;
 	}
 	/**
 	 * @param alive the alive to set

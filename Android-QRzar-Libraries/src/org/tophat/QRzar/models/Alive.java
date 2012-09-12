@@ -4,7 +4,7 @@ import java.util.Map;
 
 import android.os.Parcel;
 
-public class Alive extends Player {
+public class Alive extends org.tophat.QRzar.models.Player {
 
 	public static String API_URI = "alive";
 	
